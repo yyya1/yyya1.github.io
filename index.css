@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* 去小点 */
+a {
+    text-decoration: none;
+}
+
+/* 去划线 */
+.mr {
+    width: 1050px;
+    margin: auto;
+
+}
+
+/* 定范围，固中间 */
+.htop {
+    height: 42px;
+    width: 1050px;
+    margin: 12px auto;
+
+}
+
+/* top位置 */
+.logo {
+    float: left;
+    width: 42px;
+    height: 42px;
+    background-image: url(images/logo.png);
+
+}
+
+/* logo位置 */
+.hul {
+    float: left;
+    margin-left: 40px;
+}
+
+/* 导航文字盒子 */
+.hul li {
+    float: left;
+    margin: 0 13px;
+}
+
+/* 文字距离 */
+.hul li a {
+    display: block;
+    height: 42px;
+    padding: 0 10px;
+    line-height: 42px;
+    font-size: 18px;
+    color: rgb(215, 187, 241);
+}
+
+/* 文字样式，用padding撑开盒子，不用margin */
+.hul li a:hover {
+    border-bottom: 2px solid rgb(159, 159, 259);
+    color: rgb(159, 159, 259);
+}
+
+/* 点击导航文字后的效果 */
+.search {
+    width: 401px;
+    height: 42px;
+    margin-left: 40px;
+    float: left;
+
+}
+
+/* 搜索栏的位置 */
+.search input {
+    width: 353px;
+    height: 30px;
+    margin: 5px auto;
+    border: 1px solid rgb(191, 237, 255);
+    border-right: 0;
+    border-radius: 15px;
+    font-size: 14px;
+    color: rgb(168, 162, 162);
+    padding-left: 15px;
+
+}
+
+/* 搜索栏栏的位置 */
+.search img {
+    float: right;
+    margin: 5px auto;
+}
+
+/* 搜索栏图标 */
+.box1 {
+    height: 420px;
+    background-color: cornflowerblue;
+    margin-top: 25px;
+}
+
+/* 最大盒子 */
+.box2 {
+    height: 420px;
+    background: url(images/b221.jpg);
+}
+
+/* 盒子中的显示一个承载体，主要显示页面 */
+.box3 {
+    float: left;
+    height: 420px;
+    width: 200px;
+    background: rgb(0, 0, 0, 0.3);
+}
+
+/* 主页面左侧盒子 */
+.box3 ul li a {
+    font-size: 14px;
+    color: white;
+    line-height: 42px;
+}
+
+/* 左侧盒子中的链接 */
+.box3 ul li {
+    height: 42px;
+    background-color: rgb(108, 110, 110, 0.3);
+    width: 160px;
+    padding: 0 20px;
+}
+
+/* 左侧链接的上级链接的编辑 */
+.box3 ul li a span {
+    float: right;
+}
+
+/* 右箭头编辑 */
+.box3 ul li a:hover {
+    color: turquoise;
+}
+
+/* 鼠标在链接上的效果 */
+.box4 {
+    width: 180px;
+    height: 290px;
+    margin: 65px 0;
+    background-color: rgb(255, 255, 255, 0.5);
+    float: right;
+}
+
+/* 右边则边栏 */
+.box4 .dh2 {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: rgb(198, 255, 249, 0.5);
+    font-size: 18px;
+    color: rgb(214, 241, 201);
+}
+
+/* 右边侧边栏上头文字 */
+.box5 {
+    padding: 9px 17px 7px 20px;
+}
+
+/* 右边侧边栏下面与box4边框距离 */
+.box5 ul li {
+    border-bottom: 1px solid rgb(159, 159, 259);
+    padding: 0 0 8px 0;
+}
+
+/* li之间的距离加隔线 */
+.box5 ul li h4 {
+    color: rgb(57, 59, 59);
+    font-size: 16px
+}
+
+/* 右边侧边栏下面文字标题 */
+.box5 ul li p {
+    font-size: 12px;
+    color: rgb(69, 73, 73);
+}
+
+/* 右边侧边栏下面文字 */
+.box5jh {
+    height: 31px;
+    text-align: center;
+    display: block;
+    line-height: 31px;
+    border: 1px solid rgb(185, 185, 255);
+    margin-top: 8px;
+    color: rgb(250, 209, 252);
+}
+
+/* box5计划按钮 */
+.box6 {
+    height: 50px;
+    background-color: rgb(196, 238, 255);
+    margin-top: 10px;
+    box-shadow: 0 2px 3px 3px rgb(161, 161, 161, 0.2);
+    line-height: 50px;
+    border-radius: 25px;
+}
+
+/* 主网页下面一行推荐，行高会继承 */
+.box6 h3 {
+    margin: 0 25px;
+    float: left;
+    font-size: 16px;
+    color: rgb(162, 209, 231);
+}
+
+.box6 ul {
+    float: left;
+}
+
+.box6 ul li {
+    float: left;
+}
+
+.box6 ul li a {
+    font-size: 16px;
+    color: rgb(170, 170, 248);
+    border-left: 1px solid rgb(182, 182, 182);
+    padding: 0 25px;
+
+}
+
+.box6 li:hover {
+    border-bottom: 2px solid rgb(159, 159, 259);
+    color: rgb(159, 159, 259);
+}
+
+.jpzh {
+    float: right;
+    margin-right: 25px;
+    color: rgb(170, 170, 248);
+    font-size: 14px;
+}
